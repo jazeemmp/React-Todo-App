@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#faf9f6;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.to-do-app{
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.title{
+    font-size: 3rem;
+    color: rgb(56, 56, 56);
+}
+button{
+    all: unset;
+    font-size:1.2rem ;
+    margin-left: 5px;
+    padding: 10px 15px;
+}
+ul li{
+ list-style: none;
+ padding: 15px;
+ border: 2px solid rgb(227, 226, 226);
+ border-radius: 5px;
+ margin-bottom: 5px;
+ display: flex;
+ align-items: center;
+}
+input{
+    outline: 0;
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid rgb(227, 226, 226);
+    border-radius: 5px;
+    font-size: 1.3rem;
+    padding-left: 20px;
+}
+.text{
+    flex: 1;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+.add-btn{
+    background-color:#71baf9;
+    border-radius: 5px 20px 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 10px;
+}
